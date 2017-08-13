@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 ## This function acts as getter and setter method for inverse matrix
 ## make uses of <<- scope operator to set value to diff environments which behaves
-## like global variable assignment. exits then updates else creates new one
+## like global variable assignment. exsits then updates else creates new one
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
   set <- function(y) {
